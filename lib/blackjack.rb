@@ -41,7 +41,7 @@ end
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Sorry that is not a play. You can either stay with 's' or hit with 'h' "
 end
 
 #####################################################
