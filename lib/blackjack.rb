@@ -31,12 +31,14 @@ end
 def hit?(n)
   prompt_user
   response = get_user_input
+
   if response == 's'
-    break
+    n
   elsif response == 'h'
     n += deal_card
   else
     invalid_command
+
 end
 end
 
