@@ -57,7 +57,7 @@ def runner
   initial_round
   hit?
   display_card_total
-  until total > 21
+  until card_total > 21
   end_game
 
 end
