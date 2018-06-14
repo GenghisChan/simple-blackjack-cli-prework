@@ -35,6 +35,9 @@ def hit?(n)
     break
   elsif response == 'h'
     initial_round += deal_card
+  else 
+    invalid_command
+end
 end
 
 def invalid_command
