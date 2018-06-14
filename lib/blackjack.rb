@@ -28,9 +28,13 @@ def initial_round
   sum
 end
 
-def hit?
+def hit?(n)
   prompt_user
-  get_user_input
+  response = get_user_input
+  if response == 's'
+    break
+  elsif response == 'h'
+    initial_round += deal_card
 end
 
 def invalid_command
