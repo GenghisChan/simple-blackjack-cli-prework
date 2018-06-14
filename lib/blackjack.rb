@@ -24,10 +24,12 @@ end
 
 def initial_round
   deal_card + deal_card
+  display_card_total
 end
 
 def hit?
-  # code hit? here
+  prompt_user
+  get_user_input
 end
 
 def invalid_command
