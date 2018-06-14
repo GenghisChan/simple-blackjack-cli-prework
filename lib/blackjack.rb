@@ -34,6 +34,7 @@ def hit?(n)
 
   if response == 's'
     prompt_user
+    response = get_user_input
   elsif response == 'h'
     n += deal_card
   else
