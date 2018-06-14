@@ -41,7 +41,7 @@ end
 end
 
 def invalid_command
-  puts "Sorry that is not a play. You can either stay with 's' or hit with 'h' "
+  "Sorry that is not a play. You can either stay with 's' or hit with 'h' "
 end
 
 #####################################################
