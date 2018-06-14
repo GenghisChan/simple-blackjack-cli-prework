@@ -39,8 +39,8 @@ def hit?(n)
   else
     invalid_command
     prompt_user
-
 end
+  n
 end
 
 def invalid_command
