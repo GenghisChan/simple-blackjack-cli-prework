@@ -34,8 +34,8 @@ def hit?(n)
   if response == 's'
     break
   elsif response == 'h'
-    initial_round += deal_card
-  else 
+    card_total += deal_card
+  else
     invalid_command
 end
 end
